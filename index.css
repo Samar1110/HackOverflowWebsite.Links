@@ -1,0 +1,98 @@
+.colorText{
+    color: #33b5e5;
+}
+.colorText2{
+    color: #0088fe !important;
+}
+#site-list{
+    border-top-color: #0099CC !important;
+}
+.colorText3{
+    color: white !important;
+}
+.background{
+    background-color: #0088fe !important;
+}
+.linksbackground{
+    background-image: url('Icons/calendar(1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block; 
+    object-fit: cover; 
+    border-radius: 0px; 
+    width: 100%; 
+    height: 55vh; 
+    opacity: 1; 
+    object-position: center 66.72%;
+    margin-top: 55px;
+}
+#linkitems{
+    padding-left: 60px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    display: flex;
+    font-size: 4.5rem;
+}
+.textContent{
+    padding-left: 60px;
+    display: flex;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.textFont{
+    font-family: 'Oswald', sans-serif;
+}
+li{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.copyright{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: #0088fe;
+}
+.logo{
+    height: 35vh;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.linksHeading{
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .linksHeading{
+        margin-left: 5px;
+    }
+    .textContent{
+        padding-left: 20px;
+        display: flex;
+        font-size: 1.5rem;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+    }
+    #linkitems{
+        padding-left: 20px;
+        font-family: 'Fredoka One', cursive;
+        color: white;
+        display: flex;
+        font-size: 2.5rem;
+    }
+    .logo{
+        height: 20vh;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+   
+  }
+@media screen and (max-width: 420px) {
+
+    .logo{
+        height: 10vh;
+        margin-right: 10px;
+        padding-top: 20px;
+
+  }
+  }
